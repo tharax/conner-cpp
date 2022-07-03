@@ -1,3 +1,7 @@
 /.vscode
 /main.dSYM
 /main
+greet_test.dSYM/Contents/Resources/DWARF/greet_test
+
+greet_test
+greet_test.dSYM/Contents/Info.plist
