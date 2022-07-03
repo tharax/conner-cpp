@@ -2,8 +2,10 @@
 #include <string>
 
 
-void Greet(std::string name)
+std::string Greet(std::string name)
 { 
-    std::cout<<"Hello "<<name<<std::endl;
+    std::string greeting;
+    greeting="Hello " + name;
+    return greeting;
 }
 

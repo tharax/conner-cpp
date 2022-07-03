@@ -7,6 +7,8 @@ int main()
 {
     std::string name;
     std::cin>>name;
-    Greet(name);
+    std::string greeting;
+    greeting = Greet(name);
+    std::cout<<greeting<<std::endl;
 }
 
